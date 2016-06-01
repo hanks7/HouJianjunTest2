@@ -31,7 +31,7 @@ public class BaseActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        super.onCreate(savedInstanceState);
         if (!isHome) {
             SlidrConfig config = new SlidrConfig.Builder()
                     .velocityThreshold(2400)
@@ -55,7 +55,7 @@ public class BaseActivity extends FragmentActivity {
                 tintManager.setStatusBarTintResource(R.color.c14acf0);
             }
         }
-        super.onCreate(savedInstanceState);
+
 
     }
 

@@ -38,24 +38,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SecondActivity" />
+
+        <!-- Caution! Do not change this app key. It is only for demo usage. -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="574be06fe0f55a84d30006b8" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" />
+
+        <activity android:name=".welcome.WelcomeActivity"></activity>
+        <activity android:name=".welcome.GuidActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-
-        <!-- Caution! Do not change this app key. It is only for demo usage. -->
-        <meta-data
-            android:name="UMENG_APPKEY"
-            android:value="574be06fe0f55a84d30006b8"></meta-data>
-        <meta-data
-            android:name="UMENG_CHANNEL"
-            android:value="Umeng"></meta-data>
-
-        <activity android:name=".welcome.WelcomeActivity"></activity>
+        <activity android:name=".home.HomeActivity"></activity>
     </application>
 
 </manifest>
