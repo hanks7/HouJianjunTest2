@@ -31,6 +31,7 @@ public class MainActivity extends BaseActivity {
                 intentLeftToRight(SecondActivity.class);
             }
         });
+        Button button2=new Button(this);
 
 
     }
