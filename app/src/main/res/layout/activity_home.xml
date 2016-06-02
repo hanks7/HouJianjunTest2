@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:src="@mipmap/home_image_blue" />
+                    android:src="@mipmap/borrow_money_grey" />
 
                 <TextView
                     android:id="@+id/tv_icon_platform"
@@ -108,7 +108,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:src="@mipmap/home_image_blue" />
+                    android:src="@mipmap/food_unselect" />
 
                 <TextView
                     android:id="@+id/tv_icon_borrow"
@@ -141,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
-                    android:src="@mipmap/home_image_blue" />
+                    android:src="@mipmap/mine_unselect" />
 
                 <TextView
                     android:id="@+id/tv_icon_mine"
@@ -160,9 +160,9 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/home_line_view"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@+id/home_line_view"></FrameLayout>
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
